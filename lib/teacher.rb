@@ -6,8 +6,7 @@ class Teacher < User
   end
   
   def teach
-    KNOWLEDGE.each do |str| 
-      str[3]
+    KNOWLEDGE
     end
   end
 

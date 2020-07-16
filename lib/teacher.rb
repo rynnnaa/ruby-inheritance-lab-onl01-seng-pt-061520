@@ -6,7 +6,8 @@ class Teacher < User
   end
   
   def teach
-    KNOWLEDGE
+    KNOWLEDGE.each do |str|
+      str.random
   end
 
   

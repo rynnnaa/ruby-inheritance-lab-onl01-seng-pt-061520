@@ -4,6 +4,12 @@ class Teacher < User
   
   def initialize
   end
+  
+  def teach
+    KNOWLEDGE.each do |str| 
+      str.random
+    end
+  end
 
   
 end

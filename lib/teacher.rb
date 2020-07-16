@@ -8,6 +8,7 @@ class Teacher < User
   def teach
     KNOWLEDGE.each do |str|
       str.rand
+    end
   end
 
   
